@@ -173,14 +173,15 @@
 % resumo em português
 \begin{resumoumacoluna}
 \textbf{Contexto:} 
-O Wi-Fi Protected Setup (WPS) é um padrão definido pela Wi-Fi AllianceTM, para segurança de redes sem fio (Wi-Fi). Foi introduzida em 2006 e vinha para fornecer uma configuração mais fácil e substituir padrões obsoletos. Apesar de trazer novas funcionalidades, também trouxe consigo algumas vulnerabilidades.
+O Wi-Fi Protected Setup (WPS) é um padrão definido pela Wi-Fi AllianceTM, para segurança de redes sem fio (Wi-Fi). Foi introduzido em 2006 e vinha para fornecer uma configuração mais fácil e substituir padrões obsoletos. Apesar de trazer novas funcionalidades, também trouxe consigo algumas vulnerabilidades.
 
 \textbf{Problema:}
 Com o avanço e o grande aumento dos serviços online, as redes de computadores estão cada vez mais vulneráveis. Hoje, quase todos os computadores e dispositivos móveis estão conectados à grande rede da Internet, onde problemas podem ocorrer, seja por próprio descuido do usuário, deixando sua máquina exposta ou por falhas de segurança da rede.
 
 \indent
 \textbf{Proposta:}
-Este pré-projeto visa investigar 
+Este pré-projeto visa investigar as possíveis falhas do protocolo WPS em redes domésticas, para levantar indicadores que respaldam a necessidade de implementação de novos métodos de utilização dessa ferramenta. A abordagem baseia-se...      
+
  
 
  
