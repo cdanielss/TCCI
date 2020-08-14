@@ -87,13 +87,13 @@
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
 % ---
-\titulo{Título do Trabalho de Conclusão de Curso}
+\titulo{Avaliação de Redes sem Fio com WPS}
 \autor{
 	Aluno: Carlos Daniel da Silveira Santos (CPF:068.703.083-81)
 	\\
 	E-mail: cdanielss1973@outlook.com; Período da Graduação: VI
 	\\
-	Orientador: Nome Do Orientador
+	Orientador: Fredison Muniz de Sousa
 }
 % ---
 
@@ -173,22 +173,22 @@
 % resumo em português
 \begin{resumoumacoluna}
 \textbf{Contexto:} 
-O glaucoma é uma doença ocular caracterizada pela lesão do nervo óptico, geral
+O Wi-Fi Protected Setup (WPS) é um padrão definido pela Wi-Fi AllianceTM, para segurança de redes sem fio (Wi-Fi). Foi introduzida em 2006 e vinha para fornecer uma configuração mais fácil e substituir padrões obsoletos. Apesar de trazer novas funcionalidades, também trouxe consigo algumas vulnerabilidades.
 
 \textbf{Problema:}
-O diagnóstico do glaucoma pode ser realizado através de exames oftalmológicos, que são submetidos à análise pelos especialistas. No entanto, devido ao exaustivo processo de anális
+Com o avanço e o grande aumento dos serviços online, as redes de computadores estão cada vez mais vulneráveis. Hoje, quase todos os computadores e dispositivos móveis estão conectados à grande rede da Internet, onde problemas podem ocorrer, seja por próprio descuido do usuário, deixando sua máquina exposta ou por falhas de segurança da rede.
 
 \indent
 \textbf{Proposta:}
-Este pré-projeto visa investigar o uso de uma abordagem de aprendizado profun
+Este pré-projeto visa investigar 
  
-Cada bloco com aproximadamente 5 linhas.
+
  
  
  \vspace{\onelineskip}
  
  \noindent
- \textbf{Palavras-chaves}: Coloque aqui, separados por vírgula, as palavras chave da sua pesquisa.
+ \textbf{Palavras-chaves}: WPS, Segurança, Wi-Fi.
 \end{resumoumacoluna}
 
 % ]  				% FIM DE ARTIGO EM DUAS COLUNAS
