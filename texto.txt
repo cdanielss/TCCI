@@ -201,6 +201,14 @@ Este pré-projeto visa fazer um levantamento do total de redes domésticas, que 
 % Introdução
 % ----------------------------------------------------------
 \section{Introdução}
+As redes sem fios estão se tornando extremamente populares, em especial a rede de área local sem fio (WLAN), pois podem ser usadas para inúmeros serviços. Elas vieram da necessidade de implementação de um método simples e seguro para troca de informações no ambiente de combate. Com o tempo a tecnologia evoluiu, se tornando cada vez mais acessível para o público em geral e, também uma alternativa bastante interessante em relação às redes cabeadas.
+
+Com o crescimento exponencial das redes sem fio criaram-se novos riscos aos dispositivos e usuários e consequentemente novos desafios às empresas
+desenvolvedoras, portanto foram necessários investimentos para o desenvolvimento de tecnologias que aliem mais segurança e qualidade na utilização dessas redes. 
+
+
+
+
 
 A citação indireta é quando expressamos a ideia ou pensamento de outros, através de nossas palavras.
 Neste caso, devemos indicar o nome do autor da seguinte forma:
