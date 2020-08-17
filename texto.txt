@@ -180,13 +180,13 @@ Com o avanço e o grande aumento dos serviços online, as redes de computadores 
 
 \indent
 \textbf{Proposta:}
-Este pré-projeto visa fazer um levantamento do total de redes domésticas, que estão vulneráveis por utilizar o protocolo WPS, para levantar assim indicadores que respaldam a necessidade de implementação de novos métodos de utilização dessa ferramenta. A abordagem baseia-se...   
-
+Este pré-projeto visa avaliar redes domésticas que estão vulneráveis, principalmente por conta do protocolo WPS, utilizando como cenário o município de Picos do Estado do Piauí. A coleta de dados será feita com o auxílio do método de WarDriving, para a captura e análise de dados como: Protocolos de Segurança e configurações WPS. 
+A análise dos dados visa contribuir para o desenvolvimento de métodos sistemáticos que possam auxiliar no desenvolvimento de novas soluções de segurança. 
 
  \vspace{\onelineskip}
  
  \noindent
- \textbf{Palavras-chaves}: WPS, Segurança, Wi-Fi.
+ \textbf{Palavras-chaves}: Wi-Fi, WPS, Segurança, Internet, Protocolo.
 \end{resumoumacoluna}
 
 % ]  				% FIM DE ARTIGO EM DUAS COLUNAS
@@ -203,89 +203,11 @@ Este pré-projeto visa fazer um levantamento do total de redes domésticas, que 
 \section{Introdução}
 As redes sem fios estão se tornando extremamente populares, em especial a rede de área local sem fio (WLAN), pois podem ser usadas para inúmeros serviços. Elas vieram da necessidade de implementação de um método simples e seguro para troca de informações no ambiente de combate. Com o tempo a tecnologia evoluiu, se tornando cada vez mais acessível para o público em geral e, também uma alternativa bastante interessante em relação às redes cabeadas.
 
-Com o crescimento exponencial das redes sem fio criaram-se novos riscos aos dispositivos e usuários e consequentemente novos desafios às empresas
-desenvolvedoras, portanto foram necessários investimentos para o desenvolvimento de tecnologias que aliem mais segurança e qualidade na utilização dessas redes. 
+A tecnologia das redes sem fio obteve um grande salto na quantidade de utilizadores pela conveniência e praticidade na utilização dos dispositivos móveis \cite{tanenbaum2003redes}. Dessa forma criaram-se novos riscos aos dispositivos e usuários e consequentemente novos desafios às empresas desenvolvedoras, portanto foram necessários investimentos para o desenvolvimento de tecnologias que aliem mais segurança e qualidade na utilização dessas redes.
+
+Embora o WPS seja comercializado como uma forma segura de configurar um dispositivo sem fio, existem projetos e falhas de implementação que permitem a um invasor obter acesso a uma rede sem fio protegida \cite{viehbock2011brute}.
 
 
-
-
-
-A citação indireta é quando expressamos a ideia ou pensamento de outros, através de nossas palavras.
-Neste caso, devemos indicar o nome do autor da seguinte forma:
-CITAÇÃO INDIRETA: O autor pode ser citado no corpo do texto – usamos somente a primeira letra do nome em letra maiúscula + ano em que foi publicado o trabalho (entre parênteses).
-
-Exemplo:
-Analisando a rotação do osso sobre a base, pode-se, segundo “\citeonline{ibge1993}, descobrir até que ponto haverá o desenvolvimento do paciente.
-
-
-Nas citações diretas ou textuais as palavras do autor em questão são transcritas exatamente, sem alterações.
-
-Exemplo:
-
-“Ser ou não ser, eis a questão”, \cite{EIA649B}, era a expressão preferida.
-
-
-Desenhe a tabela usando a ferramenta Lyx, olhe o video que fiz sobre isto.
-
-\begin{table}[hbt] %% EXEMPLO DE TABELA FEITA POR MEIO DO http://www.tablesgenerator.com/
-\centering
-		\centering
-		\caption{Exemplo de Tabela.} %% LEGENDA (REPARE QUE ELE JÁ COLOCA A NUMERAÇÃO AUTOMATICAMENTE E JÁ ADICIONA À LISTA DE TABELAS
-		\begin{tabular}{|l|l|lll}
-			\cline{1-2}
-			Produto & Valor   &  &  &  \\ \cline{1-2}\cline{1-2}
-			sdadasd & asdasd  &  &  &  \\ \cline{1-2}
-			asdasd  & asasdas &  &  &  \\ \cline{1-2}
-			dsad    & asdas   &  &  &  \\ \cline{1-2}
-		\end{tabular}
-
-\end{table}
-
-A seguir você encontrará um exemplo de Figura. No texto referencie-a assim: Figura \ref{figura1}. Sempre referencie a figura ou tabela no parágrafo imediatamente antes da figura no arquivo .tex, como neste exemplo.
-
-\begin{figure} [!hbt] 
-	\centering
-	%% hbt SIGNIFICA QUE ELE PRIMEIRO VAI TENTAR COLOCAR A IMAGEM NESTE LUGAR (h de "here"). SENÃO DER, ELE TENTA COLOCAR MAIS PRA BAIXO (b de "bottom"). SENÃO ELE COLOCA MAIS PARA CIMA (t de "top").
-	\label{figura1} 
-	%% LABEL SERVE PARA VOCÊ REFERENCIAR A FIGURA NO MEIO DO TEXTO (VEJA LINHA 330: \ref{figura1}). ASSIM VOCÊ NÃO PERDE A REFERÊNCIA QUANDO MUDA A FIGURA DE LUGAR
-	\includegraphics[width=0.7\textwidth]{nemo.jpeg} %% PARA COLOCAR O ARQUIVO DA IMAGEM NO SHARELATEX, CLIQUE NO ÍCONE QUE PARECE UMA FLECHINHA PARA CIMA (ATUALIZAR), CLIQUE EM UPLOAD E PROCURE A IMAGEM EM SEU COMPUTADOR.
-	\caption{Exemplo de figura.}
-\end{figure}
-
-
-
-
-\subsection{Objetivos Gerais e Específicos}
-
-
-\section{Justificativa (Aprox. 1 página)}
-
-\section{Referencial Teórico (Aprox. 3 páginas)}
-
-% --- Seção dentro do capítulo
-\subsection{Assunto Um}
-% ---
-
-Falar do assunto Um
-
-% --- Seção dentro do capítulo
-\subsection{Assunto Dois}
-% ---
-
-Falar do assunto Dois
-
-% --- Seção dentro do capítulo
-\subsection{Assunto N}
-% ---
-
-Falar do assunto Três
-
-\section{Trabalhos Relacionados (Aprox. 2 páginas)}
-
-
-\section{Esboço da Proposta (Aprox. 2 páginas)}
-
-\section{Metodologia e Cronograma (Aprox. 2 páginas)}
 
 % ----------------------------------------------------------
 % Referências bibliográficas
