@@ -184,7 +184,7 @@ A análise dos dados visa contribuir para o desenvolvimento de métodos sistemá
  
  \noindent
 \textbf{Palavras-chaves}: Wi-Fi, WPS, Segurança, Internet, Protocolo.
- 
+
 \end{resumoumacoluna}
 
 % ]  				% FIM DE ARTIGO EM DUAS COLUNAS
@@ -210,11 +210,17 @@ Na seção 2 são,  a seção 3 aborda conceitos relevantes a este trabalho, na 
 
 
 \subsection{Objetivos Gerais e Específicos}
-O objetivo geral deste pré-projeto é
+O objetivo geral deste pré-projeto é...
 
 \section{Justificativa}
+A tecnologia das redes sem fio obteve um grande salto na quantidade de utilizadores pela conveniência e praticidade na utilização dos dispositivos móveis. Dessa forma criaram-se novos riscos aos dispositivos e usuários e consequentemente novos desafios às empresas desenvolvedoras, portanto foram necessários investimentos para o desenvolvimento de tecnologias que aliem mais segurança e qualidade na utilização dessas redes.
 
-\section{Referencial Teórico (Aprox. 3 páginas)}
+Diante da grande quantidade de usuários das redes sem fio, e tendo as mais diversas formas de ataques a vulnerabilidades, é necessário uma utilização consciente das ferramentas e dispositivos. Uma boa alternativa para lidar com os tais problemas seria sempre a atualização do software do dispositivo e uma configuração apropriada. Entretanto, são poucos os conteúdos disponibilizados pelas fabricantes para o público em geral.   
+
+Mesmo com a atualização dos protocolos e padrões do software feito pela fabricante, os dispositivos antigos ainda seriam afetados, pois os dispositivos têm uma vida útil considerável.
+
+O presente trabalho visa...
+\section{Referencial Teórico}
 
 % --- Seção dentro do capítulo
 \subsection{Assunto Um}
