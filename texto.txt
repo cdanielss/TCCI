@@ -210,7 +210,12 @@ Na seção  são,  a seção 3 aborda conceitos relevantes a este trabalho, na s
 
 
 \subsection{Objetivos Gerais e Específicos}
-O objetivo geral deste pré-projeto é...
+O objetivo geral deste pré-projeto é levantar dados que mostram o atual cenário do nível de segurança das redes Wi-Fi da cidade de Picos. Os objetivos específicos deste trabalho são:
+\begin{itemize}
+   \item Fazer o levantamento dos dados das redes;
+   \item Realizar estudos sobre as vulnerabilidades a partir dos dados; 
+   \item Auxiliar no desenvolvimento de soluções de segurança mais efetivas.  
+\end{itemize}
 
 \section{Justificativa}
 A tecnologia das redes sem fio obteve um grande salto na quantidade de utilizadores pela conveniência e praticidade na utilização dos dispositivos móveis. Dessa forma criaram-se novos riscos aos dispositivos e usuários e consequentemente novos desafios às empresas desenvolvedoras, portanto foram necessários investimentos para o desenvolvimento de tecnologias que aliem mais segurança e qualidade na utilização dessas redes.
@@ -219,7 +224,7 @@ Diante da grande quantidade de usuários das redes sem fio, e tendo as mais dive
 
 Mesmo com a atualização dos protocolos e padrões do software feito pela fabricante, os dispositivos antigos ainda seriam afetados, pois os dispositivos têm uma vida útil considerável.
 
-O presente trabalho visa...
+O presente trabalho visa solucionar um dos grandes problemas, para se desenvolver soluções por meio de métodos sistemáticos, para a segurança de redes. Sendo ele a falta de informações sobre o estado da rede. 
 \section{Referencial Teórico}
 
 % --- Seção dentro do capítulo
