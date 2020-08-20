@@ -206,7 +206,7 @@ A estrutura de uma Rede conta com uma estrutura lógica para se comunicar, denom
 Embora o WPS seja comercializado como uma forma segura de configurar um dispositivo sem fio, existem projetos e falhas de implementação que permitem a um invasor obter acesso a uma rede sem fio protegida \cite{viehbock2011brute}. As duas das principais formas de atacar um dispositivo Wi-Fi com WPS são: A primeira forma de ataque é um ataque de força bruta offline que usa desequilíbrio no registro protocolo. Este ataque requer ação do usuário, mas é o mais eficiente. A segunda forma de ataque usa fraquezas no implementação de WPS e fornece um \textit{evil twin}. Este ataque mostra que mesmo desabilitando completamente o WPS nos roteadores, todas as vulnerabilidades não são cobertas \cite{mohtadi2015new}.
 
 Este pré-projeto está dividido da seguinte maneira:
-Na seção 2 são,  a seção 3 aborda conceitos relevantes a este trabalho, na seção 4 são observados trabalhos correlatos a este, enquanto que, na seção 5 está descrito em detalhes a proposta de desenvolvimento deste trabalho. Por fim a seção 6 apresenta o cronograma pretendido para a execução deste projeto.
+Na seção  são,  a seção 3 aborda conceitos relevantes a este trabalho, na seção 4 são observados trabalhos correlatos a este, enquanto que, na seção 5 está descrito em detalhes a proposta de desenvolvimento deste trabalho. Por fim a seção 6 apresenta o cronograma pretendido para a execução deste projeto.
 
 
 \subsection{Objetivos Gerais e Específicos}
