@@ -249,13 +249,18 @@ O WEP trabalha com chaves simétricas, ou seja, a mesma chave é sempre
 utilizada para encriptar e desencriptar as informações que serão trafegadas na rede. O WEP possui uma série de problemas e a incapacidade de garantir a confidencialidade dos dados neste protocolo foi comprovada em \cite{fluhrer2001weaknesses}. O WEP pode ser quebrado através de ataques probabilísticos que foram otimizados em diversos programas específicos para isso (como o software \textit{WEPCrack} e \textit{Airsnort}). O atacante necessita capturar alguns milhares de pacotes e executar a análise via software para obter o segredo compartilhado.
 
 \subsubsection{Protocolo WPA (Wi-Fi \textit{Protected Access})}
-Para corrigir as vulnerabilidades apontadas no WEP, foi criado o WPA, protocolo de criptografia mais robusto do que o anterior. A criação do WPA tinha como o foco manter a compatibilidade com o WEP, mas ampliando suas características de segurança. O WPA não fornece apenas criptografia de dados forte para corrigir os pontos fracos do WEP, ele adiciona autenticação do usuário que estava faltando WEP \cite{alliance2003wi}.
+Para corrigir as vulnerabilidades apontadas no WEP, foi criado o WPA, protocolo de criptografia mais robusta do que o anterior. A criação do WPA tinha como o foco manter a compatibilidade com o WEP, mas ampliando suas características de segurança. O WPA não fornece apenas criptografia de dados forte para corrigir os pontos fracos do WEP, ele adiciona autenticação do usuário que estava faltando WEP \cite{alliance2003wi}.
 
-Com o WPA foi apresenta uma nova tecnologia de chave denominada TKIP (\textit{Temporal Key Integrity Protocol}), na qual a chave de criptografia é trocada periodicamente, sua autenticação é por trocas de chaves dinâmicas, prevenindo ataques de retransmissão de pacotes. Mesmo diante dessas melhorias o WPA, se um atacante obtiver os quadros trocados durante o processo de autenticação, é possível que realize um ataque de força bruta \cite{fleishman2003weakness}. 
+Com o WPA foi apresenta uma nova tecnologia de chave denominada TKIP (\textit{Temporal Key Integrity Protocol}), na qual a chave de criptografia é trocada periodicamente, sua autenticação é por trocas de chaves dinâmicas, prevenindo ataques de retransmissão de pacotes. Mesmo diante dessas melhorias do WPA, se um atacante obtiver os quadros trocados durante o processo de autenticação, é possível que realize um ataque de força bruta \cite{fleishman2003weakness}. 
  
 \subsubsection{Protocolo WPA2 (Wi-Fi \textit{Protected Access2})}
-O protocolo WPA2 foi desenvolvido para a obtenção de um nível de segurança ainda maior que no padrão WPA, que para isso substitui o método criptográfico do WPA \cite{stangarlin2017analise}. Mas com WPS ativado, a rede se torna vulnerável, mesmo que esta utilize o WPA2 e uma senha forte \cite{silva2014vulnerabilidade}.
+O protocolo WPA2 foi desenvolvido para a obtenção de um nível de segurança ainda maior que no padrão WPA, que para isso substitui o método criptográfico do WPA \cite{stangarlin2017analise}. O WPA2 introduz um novo algoritmo criptográfico, que é considerado completamente seguro, mas traz o inconveniente de não poder se comunicar com algumas interfaces de rede mais antigas. 
 
+O WPA2 é considerado o padrão de segurança Wi-Fi mais seguro, pois apresenta componentes que são cruciais para a segurança da rede
+sem fio, Autenticação, Cifragem e Integridade.  \cite{kumar2014literature}. 
+
+\subsubsection{Protocolo WPS}
+Mas com WPS ativado, a rede se torna vulnerável, mesmo que esta utilize o WPA2 e uma senha forte.  \cite{silva2014vulnerabilidade}.
 
 
 \section{Trabalhos Relacionados (Aprox. 2 páginas)}
