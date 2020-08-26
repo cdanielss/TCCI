@@ -221,8 +221,6 @@ O interesse no assunto surgiu da necessidade de entender os riscos a que as pess
 Diante da grande quantidade de usuários das redes sem fio, e tendo as mais diversas formas de ataques a vulnerabilidades, é necessário uma utilização consciente das ferramentas e dispositivos, pois a segurança é necessária em várias camadas de uma arquitetura de rede
 para proteção contra bandidos que têm à mão um grande arsenal de ataques possíveis \cite{kurose2007redes}. Uma boa alternativa para lidar com os tais problemas seria sempre a atualização do software do dispositivo e uma configuração apropriada.
 
-O protocolo WPA2 foi desenvolvido para a obtenção de um nível de segurança ainda maior que no padrão WPA, que para isso substitui o método criptográfico do WPA \cite{stangarlin2017analise}. Mas com WPS ativado, a rede se torna vulnerável, mesmo que esta utilize o WPA2 e uma senha forte \cite{silva2014vulnerabilidade}.
-
 O presente trabalho visa solucionar um dos grandes problemas, para se desenvolver soluções por meio de métodos sistemáticos, para a segurança de redes. Sendo ele a falta de informações sobre o estado da rede. Além de fornecer conhecimentos na aplicação das contramedidas de segurança necessárias para mitigar os riscos.
 
 
@@ -244,13 +242,19 @@ Todas as atividades na \textit{Internet} que envolvem duas ou mais entidades rem
 
 
 \subsubsection{Protocolo WEP (\textit{Wired Equivalent Privacy})}
-O protocolo IEEE 802.11 WEP foi criado em 2009 para fornecer autenticação e criptografia de dados entre
-um hospedeiro e um ponto de acesso sem fio (ou seja, a estação-base) usando uma técnica de chave compartilha-
-da simétrica. A WEP não especifica um algoritmo de gerenciamento de chave, então supomos que o hospedeiro
+O protocolo IEEE 802.11 WEP foi criado em 2009 para fornecer autenticação e criptografia de dados entre um hospedeiro e um ponto de acesso sem fio (ou seja, a estação-base) usando uma técnica de chave compartilhada simétrica. A WEP não especifica um algoritmo de gerenciamento de chave, então supomos que o hospedeiro
 e o ponto de acesso sem fio de alguma forma concordam sobre a chave através de um método fora da banda \cite{kurose2007redes}.
 
+O WEP trabalha com chaves simétricas, ou seja, a mesma chave é sempre
+utilizada para encriptar e desencriptar as informações que serão trafegadas na rede. O WEP possui uma série de problemas e a incapacidade de garantir a confidencialidade dos dados neste protocolo foi comprovada em \cite{fluhrer2001weaknesses}. O WEP pode ser quebrado através de ataques probabilísticos que foram otimizados em diversos programas específicos para isso (como o software \textit{WEPCrack} e \textit{Airsnort}). O atacante necessita capturar alguns milhares de pacotes e executar a análise via software para obter o segredo compartilhado.
+
 \subsubsection{Protocolo WPA (Wi-Fi \textit{Protected Access})}
+Para corrigir as vulnerabilidades apontadas no WEP, foi criado o WPA, protocolo de criptografia mais robusto do que o anterior. A criação do WPA tinha como o foco manter a compatibilidade com o WEP, mas ampliando suas características de segurança. O WPA não fornece apenas criptografia de dados forte para corrigir os pontos fracos do WEP, ele adiciona autenticação do usuário que estava faltando WEP \cite{alliance2003wi}.
+
+Com o WPA foi apresenta uma nova tecnologia de chave denominada TKIP (\textit{Temporal Key Integrity Protocol}), na qual a chave de criptografia é trocada periodicamente, sua autenticação é por trocas de chaves dinâmicas, prevenindo ataques de retransmissão de pacotes. Mesmo diante dessas melhorias o WPA, se um atacante obtiver os quadros trocados durante o processo de autenticação, é possível que realize um ataque de força bruta \cite{fleishman2003weakness}. 
+ 
 \subsubsection{Protocolo WPA2 (Wi-Fi \textit{Protected Access2})}
+O protocolo WPA2 foi desenvolvido para a obtenção de um nível de segurança ainda maior que no padrão WPA, que para isso substitui o método criptográfico do WPA \cite{stangarlin2017analise}. Mas com WPS ativado, a rede se torna vulnerável, mesmo que esta utilize o WPA2 e uma senha forte \cite{silva2014vulnerabilidade}.
 
 
 
