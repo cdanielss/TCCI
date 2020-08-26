@@ -218,35 +218,43 @@ A tecnologia das redes sem fio obteve um grande salto na quantidade de utilizado
 
 O interesse no assunto surgiu da necessidade de entender os riscos a que as pessoas estão expostas ao utilizar as redes sem fio e de verificar se existe algum mecanismo que realmente garanta a segurança neste ambiente. Diversas tecnologias são desenvolvidas e adicionadas às redes sem fio para melhorar a experiência do usuário final, permitindo que este possa, por exemplo, instalar um roteador \textit{wireless} em casa e conectar seus dispositivos com pouco ou nenhum conhecimento técnico \cite{silva2014vulnerabilidade}.
 
-Diante da grande quantidade de usuários das redes sem fio, e tendo as mais diversas formas de ataques a vulnerabilidades, é necessário uma utilização consciente das ferramentas e dispositivos. Uma boa alternativa para lidar com os tais problemas seria sempre a atualização do software do dispositivo e uma configuração apropriada. Entretanto, são poucos os conteúdos disponibilizados pelas fabricantes para o público em geral.   
+Diante da grande quantidade de usuários das redes sem fio, e tendo as mais diversas formas de ataques a vulnerabilidades, é necessário uma utilização consciente das ferramentas e dispositivos, pois a segurança é necessária em várias camadas de uma arquitetura de rede
+para proteção contra bandidos que têm à mão um grande arsenal de ataques possíveis \cite{kurose2007redes}. Uma boa alternativa para lidar com os tais problemas seria sempre a atualização do software do dispositivo e uma configuração apropriada.
 
 O protocolo WPA2 foi desenvolvido para a obtenção de um nível de segurança ainda maior que no padrão WPA, que para isso substitui o método criptográfico do WPA \cite{stangarlin2017analise}. Mas com WPS ativado, a rede se torna vulnerável, mesmo que esta utilize o WPA2 e uma senha forte \cite{silva2014vulnerabilidade}.
 
 O presente trabalho visa solucionar um dos grandes problemas, para se desenvolver soluções por meio de métodos sistemáticos, para a segurança de redes. Sendo ele a falta de informações sobre o estado da rede. Além de fornecer conhecimentos na aplicação das contramedidas de segurança necessárias para mitigar os riscos.
+
+
 \section{Referencial Teórico}
-Esta seção apresenta o referencial teórico que serve de sustentação para o entendimento do conteúdo abordado neste trabalho. Na Subseção \ref{sec:wifi} relata as Redes sem Fios, . Já a Subseção \ref{sec:protocolo} contextualiza 
+Esta seção apresenta o referencial teórico que serve de sustentação para o entendimento do conteúdo abordado neste trabalho. Na Subseção \ref{sec:wifi} relata as Redes sem Fios. Já a Subseção \ref{sec:protocolo} contextualiza sobre os protocolos. 
 
 \subsection{Redes sem Fios}
 \label{sec:wifi}
-A tecnologia \textit{wireless} significa “sem fio” (em livre tradução), e possibilita a transmissão da conexão entre pontos distantes sem precisar usar fios (como telefones sem fio, rádios ou o seu celular). Essa tecnologia engloba uma série de outras, sendo a mais comum delas a Wi-Fi. Podem ser consideradas \textit{wireless}, como o IrDA (\textit{Infrared Data Association}) que transmite através de um adaptador infravermelho, há também o \textit{bluetooth} muito utilizado em \textit{smartphones}, porém sua distância é relativamente curta, dentre outros. Dessa forma a segurança aqui abordada refere-se ao Wi-Fi.
+A tecnologia \textit{wireless} significa “sem fio” (em livre tradução), e possibilita a transmissão da conexão entre pontos distantes sem precisar usar fios (como telefones sem fio, rádios ou o seu celular) \cite{cancelaimportancia}. Essa tecnologia engloba uma série de outras, sendo a mais comum delas a Wi-Fi. Podem ser consideradas \textit{wireless}, como o IrDA (\textit{Infrared Data Association}) que transmite através de um adaptador infravermelho, há também o \textit{bluetooth} muito utilizado em \textit{smartphones}, porém sua distância é relativamente curta, dentre outros \cite{engst2005kit}.
 
 O \textit{Institute of Electrical and Electronic Engineers} (IEEE) constituiu um grupo de pesquisa para criar padrões abertos que pudessem tornar a tecnologia sem fio cada vez mais realidade, tendo como objetivo desenvolver padrões técnicos de acordo com fabricante, definindo como dará a comunicação entre fabricante e cliente de rede. Ao longo do tempo, foram desenvolvidos diversos padrões, a qual destacou e melhor desenvolveu foi o padrão 802.11, conhecido como Wi-Fi (\textit{Wireless Fidelity} ou fidelidade sem fio) \cite{rufino2019segurancca}.
 
-Após algum trabalho, o comitê apresentou o padrão 802.11 em 1997 que tratou dessas e de outras questões. A WLAN que ele descreveu funcionava a 1 Mbps (megabits por segundo) ou 2 Mbps \cite{tanenbaum2003redes}. É possível usar as técnicas de transmissão \textit{Direct Sequence Spread Spectrum} (DSSS) e \textit{Frequency Hopping Spread Spectrum }(FHSS).
+Após algum trabalho, o comitê apresentou o padrão 802.11 em 1997 que tratou dessas e de outras questões. A WLAN que ele descreveu funcionava a 1 Mbps (megabits por segundo) ou 2 Mbps \cite{tanenbaum2003redes}. 
 
 
 \subsection{Protocolos de Segurança}
 \label{sec:protocolo}
-Falar do assunto Dois
+Todas as atividades na \textit{Internet} que envolvem duas ou mais entidades remotas comunicantes são governadas por um protocolo. Por exemplo, protocolos executados no hardware de dois computadores conectados fisicamente controlam o fluxo de bits no “cabo” entre as duas placas de interface de rede; protocolos de controle de congestionamento em sistemas finais controlam a taxa com que os pacotes são transmitidos entre a origem e o destino; protocolos em roteadores determinam o caminho de um pacote da origem ao destino \cite{kurose2007redes}.
+
 
 \subsubsection{Protocolo WEP (\textit{Wired Equivalent Privacy})}
+O protocolo IEEE 802.11 WEP foi criado em 2009 para fornecer autenticação e criptografia de dados entre
+um hospedeiro e um ponto de acesso sem fio (ou seja, a estação-base) usando uma técnica de chave compartilha-
+da simétrica. A WEP não especifica um algoritmo de gerenciamento de chave, então supomos que o hospedeiro
+e o ponto de acesso sem fio de alguma forma concordam sobre a chave através de um método fora da banda \cite{kurose2007redes}.
+
 \subsubsection{Protocolo WPA (Wi-Fi \textit{Protected Access})}
 \subsubsection{Protocolo WPA2 (Wi-Fi \textit{Protected Access2})}
-\subsection{Assunto N}
+
 
 
 \section{Trabalhos Relacionados (Aprox. 2 páginas)}
-
 
 \section{Esboço da Proposta (Aprox. 2 páginas)}
 
