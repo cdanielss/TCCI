@@ -225,7 +225,7 @@ O presente trabalho visa solucionar um dos grandes problemas, para se desenvolve
 
 
 \section{Referencial Teórico}
-Esta seção apresenta o referencial teórico que serve de sustentação para o entendimento do conteúdo abordado neste trabalho. Na Subseção \ref{sec:wifi} relata as Redes sem Fios. Já a Subseção \ref{sec:protocolo} contextualiza sobre os protocolos. 
+Esta Seção apresenta os conceitos fundamentais para a compreensão do pré-projeto. Na Subseção \ref{sec:wifi} descreve as Redes sem Fios, abordando os seus conceitos de criação. Já a Subseção \ref{sec:protocolo} contextualiza sobre os protocolos, adentrando nas falhas e vulnerabilidades. 
 
 \subsection{Redes sem Fios}
 \label{sec:wifi}
@@ -233,7 +233,7 @@ A tecnologia \textit{wireless} significa “sem fio” (em livre tradução), e 
 
 O \textit{Institute of Electrical and Electronic Engineers} (IEEE) constituiu um grupo de pesquisa para criar padrões abertos que pudessem tornar a tecnologia sem fio cada vez mais realidade, tendo como objetivo desenvolver padrões técnicos de acordo com fabricante, definindo como dará a comunicação entre fabricante e cliente de rede. Ao longo do tempo, foram desenvolvidos diversos padrões, a qual destacou e melhor desenvolveu foi o padrão 802.11, conhecido como Wi-Fi (\textit{Wireless Fidelity} ou fidelidade sem fio) \cite{rufino2019segurancca}.
 
-Após algum trabalho, o comitê apresentou o padrão 802.11 em 1997 que tratou dessas e de outras questões. A WLAN que ele descreveu funcionava a 1 Mbps (megabits por segundo) ou 2 Mbps \cite{tanenbaum2003redes}. 
+O comitê apresentou o padrão IEEE 802.11 que foi inicialmente definido como uma especificação de nível físico e de \textit{enlace} do modelo OSI para redes locais sem fio WLAN. A WLAN que ele descreveu funcionava a 1 Mbps (megabits por segundo) ou 2 Mbps \cite{tanenbaum2003redes}.  
 
 
 \subsection{Protocolos de Segurança}
@@ -254,23 +254,26 @@ Para corrigir as vulnerabilidades apontadas no WEP, foi criado o WPA, protocolo 
 Com o WPA foi apresenta uma nova tecnologia de chave denominada TKIP (\textit{Temporal Key Integrity Protocol}), na qual a chave de criptografia é trocada periodicamente, sua autenticação é por trocas de chaves dinâmicas, prevenindo ataques de retransmissão de pacotes. Mesmo diante dessas melhorias do WPA, se um atacante obtiver os quadros trocados durante o processo de autenticação, é possível que realize um ataque de força bruta \cite{fleishman2003weakness}. 
  
 \subsubsection{Protocolo WPA2 (Wi-Fi \textit{Protected Access2})}
-O protocolo WPA2 foi desenvolvido para a obtenção de um nível de segurança ainda maior que no padrão WPA, que para isso substitui o método criptográfico do WPA \cite{stangarlin2017analise}. O WPA2 introduz um novo algoritmo criptográfico, que é considerado completamente seguro, mas traz o inconveniente de não poder se comunicar com algumas interfaces de rede mais antigas. 
+O protocolo WPA2 foi desenvolvido para a obtenção de um nível de segurança ainda maior que no padrão WPA, que para isso substitui o método criptográfico do WPA \cite{stangarlin2017analise}. O WPA2 introduz um novo algoritmo criptográfico, que é considerado completamente seguro, mas traz o inconveniente de não poder se comunicar com algumas interfaces de rede mais antigas. O WPA2 é considerado o padrão de segurança Wi-Fi mais seguro, pois apresenta componentes que são cruciais para a segurança da rede
+sem fio, Autenticação, Cifragem e Integridade \cite{kumar2014literature}. 
 
-O WPA2 é considerado o padrão de segurança Wi-Fi mais seguro, pois apresenta componentes que são cruciais para a segurança da rede
-sem fio, Autenticação, Cifragem e Integridade.  \cite{kumar2014literature}. 
+Porém mesmo sendo considerado o padrão de segurança mais seguro, o WPA2 não está livre de falhas, foi constatada uma falha batizada de KRACK (\textit{Key Reinstallation Attacks}) que expôs quase todas as redes \textit{wireless}. O ataque consiste em enganar a criptografia da rede permitindo que os dados sejam interceptados pelo atacante. Felizmente para que isso aconteça o atacante deve estar no alcance de sua rede, o que torna um pouco menos provável que aconteça em determinadas ocasiões \cite{vanhoef2017key}. 
 
 \subsubsection{Protocolo WPS}
-WPS é um programa de certificação opcional, que é projetado para facilitar a tarefa de instalar e configurar a segurança em redes locais sem fio \cite{viehbock2011brute}. Introduzido no início de 2007, o programa fornece um conjunto de soluções de configuração de rede. A principal e única vantagem do uso do recurso, é eliminação da necessidade de utilização e memorização de senhas. O WPS pode ser implementado nos concentradores de três formas diferentes: 
+O WPS é um programa de certificação opcional, que é projetado para facilitar a tarefa de instalar e configurar a segurança em redes locais sem fio \cite{viehbock2011brute}. Introduzido no início de 2007, o programa fornece um conjunto de soluções de configuração de rede. A principal e única vantagem do uso do recurso, é eliminação da necessidade de utilização e memorização de senhas. O WPS pode ser implementado nos concentradores de três formas diferentes: 
 \begin{itemize}
    \item PIN: Neste método, um número de identificação pessoal (\textit{Personal Identification Number} - PIN) é configurado no concentrador e utilizado no momento da conexão inicial. Este número vem, em muitos casos, informado em uma etiqueta colada ao concentrador. A autenticação via PIN no WPS é feita através da troca de mensagens entre o cliente e o concentrador sem fio. Nesta fase são trocadas oito mensagens; 
    \item Botão WPS: Neste método, o usuário tem que pressionar um botão (físico ou lógico) no concentrador e iniciar a procura no cliente. Alguns clientes podem vir com um botão WPS também;
    \item NFC (\textit{Near Field Communication}): Aqui os dois dispositivos precisam ser posicionados bem próximo um do outro, quase se tocando, para que a conexão seja estabelecida.
 \end{itemize}
 
-Mas com WPS ativado, a rede se torna vulnerável, mesmo que esta utilize o WPA2 e uma senha forte.  \cite{silva2014vulnerabilidade}.
+WPS é usado junto com Padrões WPA / WPA2 para facilitar o início configuração da rede. Mas com WPS ativado, a rede se torna vulnerável, mesmo que esta utilize o WPA2 e uma senha forte.  \cite{silva2014vulnerabilidade}.
 
 
-\section{Trabalhos Relacionados (Aprox. 2 páginas)}
+\section{Trabalhos Relacionados}
+Esta Seção explana sobre os trabalhos relacionados ao tema encontrados na literatura, especificamente sobre a exploração da vulnerabilidade do WPS. Todavia, a abordagem do pré-projeto objetiva investigar a infraestrutura de redes domésticas neste problema, contudo, não há estatísticas da quantidade de aparelhos que utilizam o WPS. Dessa forma, os trabalhos foram divididos da seguinte forma: trabalhos que exploram a vulnerabilidade do WPS e trabalhos que exploram vulnerabilidades em outros protocolos como WPA e WPA2.  
+
+\subsection{Trabalhos que utilizam o WPS para exploração de Vulnerabilidades}
 
 \section{Esboço da Proposta (Aprox. 2 páginas)}
 
