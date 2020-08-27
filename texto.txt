@@ -247,16 +247,19 @@ e o ponto de acesso sem fio de alguma forma concordam sobre a chave através de 
 O WEP trabalha com chaves simétricas, ou seja, a mesma chave é sempre
 utilizada para encriptar e desencriptar as informações que serão trafegadas na rede. O WEP possui uma série de problemas e a incapacidade de garantir a confidencialidade dos dados neste protocolo foi comprovada em \cite{fluhrer2001weaknesses}. O WEP pode ser quebrado através de ataques probabilísticos que foram otimizados em diversos programas específicos para isso (como o software \textit{WEPCrack} e \textit{Airsnort}). O atacante necessita capturar alguns milhares de pacotes e executar a análise via software para obter o segredo compartilhado.
 
+
 \subsubsection{Protocolo WPA (Wi-Fi \textit{Protected Access})}
 Para corrigir as vulnerabilidades apontadas no WEP, foi criado o WPA, protocolo de criptografia mais robusta do que o anterior. A criação do WPA tinha como o foco manter a compatibilidade com o WEP, mas ampliando suas características de segurança. O WPA não fornece apenas criptografia de dados forte para corrigir os pontos fracos do WEP, ele adiciona autenticação do usuário que estava faltando WEP \cite{alliance2003wi}.
 
 Com o WPA foi apresenta uma nova tecnologia de chave denominada TKIP (\textit{Temporal Key Integrity Protocol}), na qual a chave de criptografia é trocada periodicamente, sua autenticação é por trocas de chaves dinâmicas, prevenindo ataques de retransmissão de pacotes. Mesmo diante dessas melhorias do WPA, se um atacante obtiver os quadros trocados durante o processo de autenticação, é possível que realize um ataque de força bruta \cite{fleishman2003weakness}. 
+ 
  
 \subsubsection{Protocolo WPA2 (Wi-Fi \textit{Protected Access2})}
 O protocolo WPA2 foi desenvolvido para a obtenção de um nível de segurança ainda maior que no padrão WPA, que para isso substitui o método criptográfico do WPA \cite{stangarlin2017analise}. O WPA2 introduz um novo algoritmo criptográfico, que é considerado completamente seguro, mas traz o inconveniente de não poder se comunicar com algumas interfaces de rede mais antigas. O WPA2 é considerado o padrão de segurança Wi-Fi mais seguro, pois apresenta componentes que são cruciais para a segurança da rede
 sem fio, Autenticação, Cifragem e Integridade \cite{kumar2014literature}. 
 
 Porém mesmo sendo considerado o padrão de segurança mais seguro, o WPA2 não está livre de falhas, foi constatada uma falha batizada de KRACK (\textit{Key Reinstallation Attacks}) que expôs quase todas as redes \textit{wireless}. O ataque consiste em enganar a criptografia da rede permitindo que os dados sejam interceptados pelo atacante. Felizmente para que isso aconteça o atacante deve estar no alcance de sua rede, o que torna um pouco menos provável que aconteça em determinadas ocasiões \cite{vanhoef2017key}. 
+
 
 \subsubsection{Protocolo WPS}
 O WPS é um programa de certificação opcional, que é projetado para facilitar a tarefa de instalar e configurar a segurança em redes locais sem fio \cite{viehbock2011brute}. Introduzido no início de 2007, o programa fornece um conjunto de soluções de configuração de rede. A principal e única vantagem do uso do recurso, é eliminação da necessidade de utilização e memorização de senhas. O WPS pode ser implementado nos concentradores de três formas diferentes: 
@@ -266,7 +269,8 @@ O WPS é um programa de certificação opcional, que é projetado para facilitar
    \item NFC (\textit{Near Field Communication}): Aqui os dois dispositivos precisam ser posicionados bem próximo um do outro, quase se tocando, para que a conexão seja estabelecida.
 \end{itemize}
 
-WPS é usado junto com Padrões WPA / WPA2 para facilitar o início configuração da rede. Mas com WPS ativado, a rede se torna vulnerável, mesmo que esta utilize o WPA2 e uma senha forte.  \cite{silva2014vulnerabilidade}.
+Um sistema que utilize a autenticação WPS por meio de PIN, pode ser facilmente quebrado por meio de um ataque de força bruta, mesmo sendo
+usado junto com padrões WPA ou WPA2 e uma senha forte \cite{silva2014vulnerabilidade}. A melhor opção para manter as redes sem fio seguras é, aparentemente, desabilitar a função WPS nos roteadores. 
 
 
 \section{Trabalhos Relacionados}
