@@ -233,8 +233,7 @@ A tecnologia \textit{wireless} significa “sem fio” (em livre tradução), e 
 
 O \textit{Institute of Electrical and Electronic Engineers} (IEEE) constituiu um grupo de pesquisa para criar padrões abertos que pudessem tornar a tecnologia sem fio cada vez mais realidade, tendo como objetivo desenvolver padrões técnicos de acordo com fabricante, definindo como dará a comunicação entre fabricante e cliente de rede. Ao longo do tempo, foram desenvolvidos diversos padrões, a qual destacou e melhor desenvolveu foi o padrão 802.11, conhecido como Wi-Fi (\textit{Wireless Fidelity} ou fidelidade sem fio) \cite{rufino2019segurancca}.
 
-O comitê apresentou o padrão IEEE 802.11 que foi inicialmente definido como uma especificação de nível físico e de \textit{enlace} do modelo OSI para redes locais sem fio WLAN. A WLAN que ele descreveu funcionava a 1 Mbps (megabits por segundo) ou 2 Mbps \cite{tanenbaum2003redes}.  
-
+O comitê apresentou o padrão IEEE 802.11 que foi inicialmente definido como uma especificação de nível físico e de \textit{enlace} do modelo OSI para redes locais sem fio WLAN. A WLAN  funcionava a 1 Mbps (megabits por segundo) ou 2 Mbps \cite{tanenbaum2003redes}. Com o passar do tempo outros padrões foram criados, de acordo com a necessidade do mercado, o último padrão apresentado é o 802.11ax, que foi ratificado no segundo semestre de 2019, vindo para fornecer um desempenho mais previsível para aplicações avançadas, como vídeo 4K ou 8K \cite{lopez2019ieee}. 
 
 \subsection{Protocolos de Segurança}
 \label{sec:protocolo}
