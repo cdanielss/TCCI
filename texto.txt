@@ -280,6 +280,10 @@ Esta Seção explana sobre os trabalhos relacionados ao tema encontrados na lite
 
 \subsection{Trabalhos que utilizam o WPS para exploração de Vulnerabilidades}
 
+Em \cite{lindell2019wps}, investiga a razão que causa o WPS um método inseguro, trazendo uma indagação sobre esse método ser seguro o suficiente para ser usado em redes corporativas. O trabalho aborda fraquezas e riscos de segurança, embora não aborda outras informações importantes, como se a tecnologia pode ser aprimorada. Também não há informações sobre como o usuário, pode se proteger contra esses ataques, que também é uma parte importante da segurança da rede.  
+
+O artigo \cite{nikolov2018wireless}, faz uma avaliação e ataques de vulnerabilidades, dois tipos de ataque foram realizados nesta pesquisa, um através da troca de senha WPA2, e outro ataque para o roteador com WPS ativado, explorando a troca de PIN. O artigo descreve um modelo de senhas, com maior nível de segurança, ideal para usuários comuns. Durante os experimentos foram encontradas senhas que levam um tempo infinito de serem quebradas, por meio do método de força bruta, essas senhas eram compostas de letras aleatórias, números e símbolos especiais. 
+
 
 \subsection{Trabalhos que exploram vulnerabilidades em WPA e WPA2 }
 
