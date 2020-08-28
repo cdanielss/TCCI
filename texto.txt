@@ -221,8 +221,10 @@ O interesse no assunto surgiu da necessidade de entender os riscos a que as pess
 Diante da grande quantidade de usuários das redes sem fio, e tendo as mais diversas formas de ataques a vulnerabilidades, é necessário uma utilização consciente das ferramentas e dispositivos, pois a segurança é necessária em várias camadas de uma arquitetura de rede
 para proteção contra bandidos que têm à mão um grande arsenal de ataques possíveis \cite{kurose2007redes}. Uma boa alternativa para lidar com os tais problemas seria sempre a atualização do software do dispositivo e uma configuração apropriada.
 
-O presente trabalho visa solucionar um dos grandes problemas, para se desenvolver soluções por meio de métodos sistemáticos, para a segurança de redes. Sendo ele a falta de informações sobre o estado da rede. Além de fornecer conhecimentos na aplicação das contramedidas de segurança necessárias para mitigar os riscos.
+Mantendo o WPS ativo pode ser um fator de risco alto, ou seja, permitir um acesso não autorizado na rede e possivelmente  ao restante do ambiente, quer seja para usá-lo como ponte para outros ambientes, quer seja para capturar informações que trafegam para outros ambientes 
+Wi-Fi. Mesmo que a senha não seja exposta, e o PIN do WPS for descoberto já é suficiente para ter acesso a rede \cite{rufino2019segurancca}.
 
+O presente trabalho visa solucionar um dos grandes problemas, para se desenvolver soluções por meio de métodos sistemáticos, para a segurança de redes. Sendo ele a falta de informações sobre o estado da rede. Além de fornecer conhecimentos na aplicação das contramedidas de segurança necessárias para mitigar os riscos e uma utilização devida dos equipamentos.
 
 \section{Referencial Teórico}
 Esta Seção apresenta os conceitos fundamentais para a compreensão do pré-projeto. Na Subseção \ref{sec:wifi} descreve as Redes sem Fios, abordando os seus conceitos de criação. Já a Subseção \ref{sec:protocolo} contextualiza sobre os protocolos, adentrando nas falhas e vulnerabilidades. 
@@ -269,14 +271,17 @@ O WPS é um programa de certificação opcional, que é projetado para facilitar
    \item NFC (\textit{Near Field Communication}): Aqui os dois dispositivos precisam ser posicionados bem próximo um do outro, quase se tocando, para que a conexão seja estabelecida.
 \end{itemize}
 
-Um sistema que utilize a autenticação WPS por meio de PIN, pode ser facilmente quebrado por meio de um ataque de força bruta, mesmo sendo
-usado junto com padrões WPA ou WPA2 e uma senha forte \cite{silva2014vulnerabilidade}. A melhor opção para manter as redes sem fio seguras é, aparentemente, desabilitar a função WPS nos roteadores. 
+O WPS é considerado uma técnica de autenticação fraca, pois vários ataques foram sucessivos contra o WPS. Um sistema que utilize a autenticação WPS por meio de PIN, pode ser facilmente quebrado por meio de um ataque de força bruta, mesmo sendo usado junto com padrões WPA ou WPA2 e uma senha forte \cite{silva2014vulnerabilidade}. A melhor opção para manter as redes sem fio seguras é, aparentemente, desabilitar a função WPS nos roteadores. 
+
 
 
 \section{Trabalhos Relacionados}
 Esta Seção explana sobre os trabalhos relacionados ao tema encontrados na literatura, especificamente sobre a exploração da vulnerabilidade do WPS. Todavia, a abordagem do pré-projeto objetiva investigar a infraestrutura de redes domésticas neste problema, contudo, não há estatísticas da quantidade de aparelhos que utilizam o WPS. Dessa forma, os trabalhos foram divididos da seguinte forma: trabalhos que exploram a vulnerabilidade do WPS e trabalhos que exploram vulnerabilidades em outros protocolos como WPA e WPA2.  
 
 \subsection{Trabalhos que utilizam o WPS para exploração de Vulnerabilidades}
+
+
+\subsection{Trabalhos que exploram vulnerabilidades em WPA e WPA2 }
 
 \section{Esboço da Proposta (Aprox. 2 páginas)}
 
