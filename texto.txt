@@ -286,8 +286,11 @@ O artigo \cite{nikolov2018wireless}, faz uma avaliação e ataques de vulnerabil
 Em \cite{valchanov2019study} apresenta uma metodologia e pesquisa baseada na cidade de Varna, que é a terceira maior cidade da Bulgária, utiliza o método de \textit{WarDriving} para coleta de informações. Tendo como principal objetivo saber qual o atual nível de segurança em Varna. Os dados coletados incluem informações de um total de 19136 redes, os resultados obtidos foram analisados sistematicamente, com um total de 53\% das redes com o WPS ativado.
 
 \subsection{Trabalhos que exploram vulnerabilidades em WPA e WPA2 }
+Em \cite{kohlios2018comprehensive}, faz um levantamento de todos os ataques disponíveis em uma rede Wi-Fi usando WPA2 de maneira organizada. Busca criar uma pesquisa abrangente que reitera pontos-chave para fornecer informações suficientes para a compreensão dos esquemas de criptografia. Conclui que o WPA2 permite que as informações do sistema, conhecidas como frames de gerenciamento, sejam enviadas em pacotes de texto simples do cliente para o ponto de acesso. Com essa vulnerabilidade, um adversário pode falsificar os pacotes para fazer com que pareçam vir do cliente alvo e realizar ataques, como a desautenticação. Também informa sobre o \textit{Krack Attack}, esse processo explora o handshake de quatro vias que os protocolos de segurança sem fio usam para autenticar seus usuários ao se conectar à rede. 
+
 No trabalho de \citeonline{soares2019avaliaccao} foi realizado uma pesquisa, para a avaliação dos mecanismos de segurança, são efetuados experimentos de ataques de dicionário e força bruta para obtenção das senhas das redes. A vulnerabilidade \textit{Krack Attack} também é explorada com o objetivo de verificar se os dispositivos com Wi-Fi estão vulneráveis. Registrando que 31,6\% das redes analisadas foram invadidas, por meio de força bruta. Já na exploração do \textit{Krack Attack} quase 50\% está propensa a sofrer ataques.
 
+Já no trabalho \cite{kissi975penetration}, usa uma metodolia diferente dos demais, aplica testes em um laboratório de rede experimental. O estudo considerou utilizar o laboratório da rede de forma a não comprometer nenhum rede individual ou organizacional devido à privacidade e legalidade de informações do usuário.
 
 
 \section{Esboço da Proposta (Aprox. 2 páginas)}
