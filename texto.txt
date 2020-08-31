@@ -297,7 +297,7 @@ No trabalho de \citeonline{soares2019avaliaccao} foi realizado uma pesquisa, par
 \begin{table}[]
 \caption{Comparação de trabalhos a partir dos modelos, diferenciando os objetivos e métodos}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{{p{4 cm}p{5 cm}p{5 cm}p{5 cm}}}
+\begin{tabular}{c p{4 cm} c p{5 cm} c p{5 cm} c p{5 cm}}
 \toprule
 Trabalhos                   & Objetivos                                                     & Ataques? & Análise de Resultados \\ \midrule
 \cite{lindell2019wps}       & Abordar falhas no padrão WPS                                  & Não      & Não                   \\ \midrule
