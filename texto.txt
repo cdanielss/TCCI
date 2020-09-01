@@ -295,27 +295,27 @@ No trabalho de \citeonline{soares2019avaliaccao} foi realizado uma pesquisa, par
 
 
 \begin{table}[]
-\caption{Comparação de trabalhos a partir dos modelos, diferenciando os objetivos e métodos}
+\caption{Comparação de trabalhos a partir dos modelos, diferenciando os objetivos e métodos de ataque.}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{c p{4 cm} c p{5 cm} c p{5 cm} c p{5 cm}}
 \toprule
-Trabalhos                   & Objetivos                                                     & Ataques? & Análise de Resultados \\ \midrule
-\cite{lindell2019wps}       & Abordar falhas no padrão WPS                                  & Não      & Não                   \\ \midrule
-\cite{nikolov2018wireless}  & Identificar vulnerabilidades por meio de ataques              & Sim      & Não                   \\ \midrule
-\cite{valchanov2019study}       & Localizar  vulnerabilidades por meio de uma pesquisa de campo & Não & Sim \\ \midrule
-\cite{kohlios2018comprehensive} & Abordar todas as possíveis falhas no protocolo WPA2           & Sim & Não \\ \midrule
-\cite{kissi975penetration}  & Fornecer resultados de falhas por meio de ataques             & Sim      & Não                   \\ \midrule
-\cite{soares2019avaliaccao} & Realizar uma pesquisa em busca de falhas                      & Sim      & Sim                   \\ \midrule
-Este Trabalho               & Localizar  vulnerabilidades por meio de uma pesquisa de campo & Sim      & Sim                   \\ \bottomrule
+Trabalhos                   & Objetivos                                                     & Ataques Ativos? & Ataques Passivos? \\ \hline
+\cite{lindell2019wps}       & Abordar falhas no padrão WPS                                  & Não             & Sim               \\ \hline
+\cite{nikolov2018wireless}  & Identificar vulnerabilidades por meio de ataques              & Sim             & Sim               \\ \hline
+\cite{valchanov2019study}       & Localizar  vulnerabilidades por meio de uma pesquisa de campo & Não & Sim \\ \hline
+\cite{kohlios2018comprehensive} & Abordar todas as possíveis falhas no protocolo WPA2           & Sim & Sim \\ \hline
+\cite{kissi975penetration}  & Fornecer resultados de falhas por meio de ataques             & Sim             & Sim               \\ \hline
+\cite{soares2019avaliaccao} & Realizar uma pesquisa em busca de falhas                      & Sim             & Sim               \\ \hline
+Este Trabalho               & Localizar  vulnerabilidades por meio de uma pesquisa de campo & Sim             & Sim               \\ \hline
 \end{tabular}%
 }
 \end{table}
 
+\section{Esboço da Proposta}
+Esta Seção descreve a proposta deste pré-projeto para o desenvolvimento de uma metodologia para levatamento de dados sobre a segurança de redes, utilizando técnicas de
+Ataques Passivos e Ataques Ativos. 
 
-
-\section{Esboço da Proposta (Aprox. 2 páginas)}
-
-\section{Metodologia e Cronograma (Aprox. 2 páginas)}
+\section{Metodologia e Cronograma}
 
 % ----------------------------------------------------------
 % Referências bibliográficas
