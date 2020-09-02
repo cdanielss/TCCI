@@ -311,12 +311,18 @@ Este Trabalho               & Localizar  vulnerabilidades por meio de uma pesqui
 }
 \end{table}
 
-\section{Esboço da Proposta}
-Esta Seção descreve a proposta deste pré-projeto para o desenvolvimento de uma metodologia para levatamento de dados sobre a segurança de redes, utilizando técnicas de
-Ataques Passivos e Ataques Ativos. 
+\section{Proposta}
+O pré-projeto propõe um estudo de campo, que será realizado na cidade de Picos, com o intuito de levantar dados, sobre o nível atual da segurança das redes sem fio. Para o levantamento dos dados, será utilizado o método de ataque passivo, \textit{WarDriving}, esse método consiste em percorrer uma região, em um automóvel e um computador. A função do computador é coletar informações, com ajuda de softwares, e classificar os protocolos de segurança, que cada equipamento de rede sem fio, está utilizando.
+
+
+ utilizando técnicas de
+Ataques Passivos e Ataques Ativos. Será realizado um estudo de campo na cidade de Picos, com intuito de colher informações sobre as redes nesse local. 
 
 \section{Metodologia e Cronograma}
-
+Neste estudo, serão demonstradas as etapas necessárias para identificar os concentradores sem fio que possuem a tecnologia WPS ativadas, verificar falhas, por meio de um ataque de força bruta e os resultados do ataque. Foi realizada uma pesquisa de campo a fim de mensurar o nível de segurança
+existentes nos Access Point instalados nas alas dos cadetes. Esses dados foram obtidos
+escaneando os SSID dos Access Point de ala em ala verificando o tipo de protocolo de
+segurança que estava habilitado em cada um.
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
