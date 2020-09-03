@@ -208,7 +208,6 @@ Embora o WPS seja comercializado como uma forma segura de configurar um disposit
 \subsection{Objetivos Gerais e Específicos}
 O objetivo geral deste pré-projeto é levantar dados que mostrem o atual cenário do nível de segurança das redes Wi-Fi no município de Picos do Estado do Piauí (Picos - PI). Os objetivos específicos deste trabalho são:
 \begin{itemize}
-   \item Levantar o estado da arte sobre redes wifi;
    \item Identificar o perfil das redes wifi da cidade de Picos; 
    \item Criar métodos sistemáticos que auxiliem na segurança das redes wifi.
 \end{itemize}
@@ -311,9 +310,8 @@ Este Trabalho               & Localizar  vulnerabilidades por meio de uma pesqui
 \end{table}
 
 \section{Proposta}
-O pré-projeto propõe um estudo de campo, que será realizado na cidade de Picos, a fim de mensurar o nível de segurança existentes das redes sem fio. Para o levantamento dos dados, será utilizado o método de ataque passivo, \textit{WarDriving}, esse método consiste em percorrer uma região, em um automóvel e um computador. A função do computador é coletar informações, com ajuda de softwares, e classificar os protocolos de segurança, que cada equipamento de rede sem fio, está utilizando.
+O pré-projeto propõe um estudo de campo, que a partir das informações levantadas sobre o estado da arte dos protocolos de segurança das redes Wi-Fi, através do método \textit{WarDriving}, levantar o perfil das redes sem fio da cidade de Picos no que diz respeito aos métodos de segurança aplicados para a segurança de rede. 
 
-Por fim, este pré-projeto visa após a coleta dos dados, fornecer informações concretas, para uma melhor utilização de equipamentos e ferramentas, na gestão de redes sem fio. Tendo como intuito focar em redes domésticas, que se faz por maioria das redes da cidade.
 
 \section{Metodologia e Cronograma}
 Em primeiro lugar serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado, o ataque será feito por meio de força de bruta. 
