@@ -312,17 +312,13 @@ Este Trabalho               & Localizar  vulnerabilidades por meio de uma pesqui
 \end{table}
 
 \section{Proposta}
-O pré-projeto propõe um estudo de campo, que será realizado na cidade de Picos, com o intuito de levantar dados, sobre o nível atual da segurança das redes sem fio. Para o levantamento dos dados, será utilizado o método de ataque passivo, \textit{WarDriving}, esse método consiste em percorrer uma região, em um automóvel e um computador. A função do computador é coletar informações, com ajuda de softwares, e classificar os protocolos de segurança, que cada equipamento de rede sem fio, está utilizando.
+O pré-projeto propõe um estudo de campo, que será realizado na cidade de Picos, a fim de mensurar o nível de segurança existentes das redes sem fio. Para o levantamento dos dados, será utilizado o método de ataque passivo, \textit{WarDriving}, esse método consiste em percorrer uma região, em um automóvel e um computador. A função do computador é coletar informações, com ajuda de softwares, e classificar os protocolos de segurança, que cada equipamento de rede sem fio, está utilizando.
 
-Por fim, este pré-projeto visa após a coleta dos dados, fornecer informações concentras, para uma melhor utilização de equipamentos e ferramentas, na gestão de redes sem fio. Tendo como intuito focar em redes domesticas, que se faz por maioria das redes da cidade.
+Por fim, este pré-projeto visa após a coleta dos dados, fornecer informações concretas, para uma melhor utilização de equipamentos e ferramentas, na gestão de redes sem fio. Tendo como intuito focar em redes domésticas, que se faz por maioria das redes da cidade.
 
 \section{Metodologia e Cronograma}
 Em primeiro lugar serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado, o ataque será feito por meio de força de bruta. 
 
-serão demonstradas as etapas necessárias para identificar os concentradores sem fio que possuem a tecnologia WPS ativadas e verificar falhas em , por meio de um ataque de força bruta e os resultados do ataque. Foi realizada uma pesquisa de campo a fim de mensurar o nível de segurança
-existentes nos Access Point instalados nas alas dos cadetes. Esses dados foram obtidos
-escaneando os SSID dos Access Point de ala em ala verificando o tipo de protocolo de
-segurança que estava habilitado em cada um.
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
