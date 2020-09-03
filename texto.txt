@@ -206,20 +206,19 @@ A estrutura de uma rede conta com uma estrutura lógica para se comunicar, denom
 Embora o WPS seja comercializado como uma forma segura de configurar um dispositivo sem fio, existem projetos e falhas de implementação que permitem a um invasor obter acesso a uma rede sem fio protegida \cite{viehbock2011brute}. As duas das principais formas de atacar um dispositivo Wi-Fi com WPS são: A primeira é um ataque de força bruta offline que usa desequilíbrio no registro do protocolo. Este ataque requer ação do usuário, mas é o mais eficiente. A segunda forma de ataque usa fraquezas no implementação de WPS e fornece um \textit{evil twin}. Este ataque mostra que mesmo desabilitando completamente o WPS nos roteadores, todas as vulnerabilidades não são cobertas \cite{mohtadi2015new}.
 
 \subsection{Objetivos Gerais e Específicos}
-O objetivo geral deste pré-projeto é levantar dados que mostram o atual cenário do nível de segurança das redes Wi-Fi no município de Picos do Estado do Piauí (Picos - PI). Os objetivos específicos deste trabalho são:
+O objetivo geral deste pré-projeto é levantar dados que mostrem o atual cenário do nível de segurança das redes Wi-Fi no município de Picos do Estado do Piauí (Picos - PI). Os objetivos específicos deste trabalho são:
 \begin{itemize}
-   \item Fazer o levantamento dos dados das redes;
-   \item Realizar estudos sobre as vulnerabilidades a partir dos dados; 
-   \item Provar que se deve desativar o método PIN (Número de identificação pessoal) da tecnologia WPS nos concentradores sem fio.
+   \item Levantar o estado da arte sobre redes wifi;
+   \item Identificar o perfil das redes wifi da cidade de Picos; 
+   \item Criar métodos sistemáticos que auxiliem na segurança das redes wifi.
 \end{itemize}
 
 \section{Justificativa}
 A tecnologia das redes sem fio obteve um grande salto na quantidade de utilizadores pela conveniência e praticidade na utilização dos dispositivos móveis \cite{tanenbaum2011redes}. Dessa forma criaram-se novos riscos aos dispositivos e usuários e consequentemente novos desafios às empresas desenvolvedoras, portanto foram necessários investimentos para o desenvolvimento de tecnologias que aliem mais segurança e qualidade na utilização dessas redes.
 
-O interesse no assunto surgiu da necessidade de entender os riscos a que as pessoas estão expostas ao utilizar as redes sem fio e de verificar se existe algum mecanismo que realmente garanta a segurança neste ambiente. Diversas tecnologias são desenvolvidas e adicionadas às redes sem fio para melhorar a experiência do usuário final, permitindo que este possa, por exemplo, instalar um roteador \textit{wireless} em casa e conectar seus dispositivos com pouco ou nenhum conhecimento técnico \cite{silva2014vulnerabilidade}.
+O interesse no assunto surgiu da necessidade de entender os riscos a que as pessoas estão expostas ao utilizar as redes sem fio e de verificar se existe algum mecanismo que realmente garantam a segurança neste ambiente. Diversas tecnologias são desenvolvidas e adicionadas às redes sem fio para melhorar a experiência do usuário final, permitindo que este possa, por exemplo, instalar um roteador \textit{wireless} em casa e conectar seus dispositivos com pouco ou nenhum conhecimento técnico \cite{silva2014vulnerabilidade}.
 
-Diante da grande quantidade de usuários das redes sem fio, e tendo as mais diversas formas de ataques a vulnerabilidades, é necessário uma utilização consciente das ferramentas e dispositivos, pois a segurança é necessária em várias camadas de uma arquitetura de rede
-para proteção contra bandidos que têm à mão um grande arsenal de ataques possíveis \cite{kurose2007redes}. Uma boa alternativa para lidar com os tais problemas seria sempre a atualização do software do dispositivo e uma configuração apropriada.
+Diante da grande quantidade de usuários das redes sem fio, e tendo as mais diversas formas de ataques a vulnerabilidades, é necessário uma utilização consciente das ferramentas e dispositivos, pois a segurança é necessária em várias camadas de uma arquitetura de rede para proteção contra atacantes, que têm à mão um grande arsenal de ataques possíveis \cite{kurose2007redes}. Uma boa alternativa para lidar com os tais problemas seria sempre a atualização do software do dispositivo e uma configuração apropriada.
 
 Mantendo o WPS ativo pode ser um fator de risco alto, ou seja, permitir um acesso não autorizado na rede e possivelmente  ao restante do ambiente, quer seja para usá-lo como ponte para outros ambientes, quer seja para capturar informações que trafegam para outros ambientes 
 Wi-Fi. Mesmo que a senha não seja exposta, e o PIN do WPS for descoberto já é suficiente para ter acesso a rede \cite{rufino2019segurancca}.
