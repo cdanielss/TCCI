@@ -310,11 +310,29 @@ Este Trabalho               & Localizar  vulnerabilidades por meio de uma pesqui
 \end{table}
 
 \section{Proposta}
-O pré-projeto propõe um estudo de campo, que a partir das informações levantadas sobre o estado da arte dos protocolos de segurança das redes Wi-Fi, através do método \textit{WarDriving}, levantar o perfil das redes sem fio da cidade de Picos no que diz respeito aos métodos de segurança aplicados para a segurança de rede. 
+O pré-projeto propõe um estudo de campo, que a partir das informações levantadas sobre o estado da arte dos protocolos de segurança das redes Wi-Fi, através do método \textit{WarDriving}, levantar o perfil das redes sem fio da cidade de Picos no que diz respeito aos métodos de segurança aplicados as redes sem fio. 
 
-
-\section{Metodologia e Cronograma}
 Em primeiro lugar serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado, o ataque será feito por meio de força de bruta. 
+    
+\section{Cronograma}
+Esta seção descreverá o cronograma do pré-projeto, compreendendo as etapas para alcançar os objetivos apontados neste trabalho.
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[h]
+\caption{Cronograma das atividades.}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Atividades & Fevereiro - Março & Maio  - Abril & Maio - Junho & Agosto - Setembro & Outubro - Novembro \\ \hline
+Atualizar revisão bibliográfica   & X & X & X & X &   \\ \hline
+Implementar as técnicas propostas & X & X &   &   &   \\ \hline
+Testes das técnicas utilizadas    &   & X & X &   &   \\ \hline
+Redação de artigos científicos    &   &   & X & X &   \\ \hline
+Redação da monografia             &   &   & X & X &   \\ \hline
+Defesa da monografia              &   &   &   &   & X \\ \hline
+\end{tabular}%
+}
+\end{table}
 
 % ----------------------------------------------------------
 % Referências bibliográficas
