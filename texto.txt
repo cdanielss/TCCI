@@ -315,7 +315,7 @@ O pré-projeto propõe um estudo de campo, que a partir das informações levant
 Em primeiro lugar serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado, o ataque será feito por meio de força de bruta. 
     
 \section{Cronograma}
-Esta seção descreverá o cronograma do pré-projeto, compreendendo as etapas para alcançar os objetivos apontados neste trabalho.
+Esta seção descreve o cronograma do pré-projeto, compreendendo as etapas para alcançar os objetivos apontados neste trabalho.
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
 \begin{table}[h]
