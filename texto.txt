@@ -309,12 +309,12 @@ Este Trabalho               & Localizar  vulnerabilidades por meio de uma pesqui
 }
 \end{table}
 
-\section{Proposta}
-O pré-projeto propõe um estudo de campo, que a partir das informações levantadas sobre o estado da arte dos protocolos de segurança das redes Wi-Fi, através do método \textit{WarDriving}, levantar o perfil das redes sem fio da cidade de Picos no que diz respeito aos métodos de segurança aplicados as redes sem fio. 
+\section{Esboço da Proposta}
+Nesta seção será feita uma breve descrição da proposta deste pré-projeto. A proposta visa através do método \textit{WarDriving}, levantar o perfil das redes sem fio da cidade de Picos no que diz respeito aos métodos de segurança aplicados as redes sem fio. A proposta visa realizar um estudo de campo pra idententificar o nível de segurança das redes de Picos, dessa forma...  
 
-Em primeiro lugar serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado, o ataque será feito por meio de força de bruta. 
+Para realizar a análise serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado, o ataque será feito por meio de força de bruta. 
     
-\section{Cronograma}
+\section{Metodologia e Cronograma}
 Esta seção descreve o cronograma do pré-projeto, compreendendo as etapas para alcançar os objetivos apontados neste trabalho.
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
