@@ -315,21 +315,21 @@ Nesta seção será feita uma breve descrição da proposta deste pré-projeto. 
 Para realizar a análise serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado, o ataque será feito por meio de força de bruta. 
     
 \section{Metodologia e Cronograma}
-Esta seção descreve o cronograma do pré-projeto, compreendendo as etapas para alcançar os objetivos apontados neste trabalho.
+Por fim, a Tabela \ref{tab:dois} apresenta o cronograma planejado para execução do projeto.
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
 \begin{table}[h]
-\caption{Cronograma das atividades.}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-Atividades & Fevereiro - Março & Maio  - Abril & Maio - Junho & Agosto - Setembro & Outubro - Novembro \\ \hline
-Atualizar revisão bibliográfica   & X & X & X & X &   \\ \hline
-Implementar as técnicas propostas & X & X &   &   &   \\ \hline
-Testes das técnicas utilizadas    &   & X & X &   &   \\ \hline
-Redação de artigos científicos    &   &   & X & X &   \\ \hline
-Redação da monografia             &   &   & X & X &   \\ \hline
-Defesa da monografia              &   &   &   &   & X \\ \hline
+\label{tab:dois}
+Atividades                        & Mês 1 - 2 & Mês 3 - 6 & Mês 7 - 8 & Mês 9 - 10 & Mês 11 - 12 \\ \hline
+Atualizar revisão bibliográfica   & X         & X         & X         & X          &             \\ \hline
+Implementar as técnicas propostas & X         & X         &           &            &             \\ \hline
+Testes das técnicas utilizadas    &           & X         & X         &            &             \\ \hline
+Redação de artigos científicos    &           &           & X         & X          &             \\ \hline
+Redação da monografia             &           &           & X         & X          &             \\ \hline
+Defesa da monografia              &           &           &           &            & X           \\ \hline
 \end{tabular}%
 }
 \end{table}
