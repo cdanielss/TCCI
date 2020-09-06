@@ -167,7 +167,7 @@
 % resumo em português
 \begin{resumoumacoluna}
 \textbf{Contexto:} 
-O \textit{Wi-Fi Protected Setup} (WPS) é um padrão definido pela Wi-Fi AllianceTM, para segurança de redes sem fio (Wi-Fi). Foi introduzido em 2006 e vinha para fornecer uma configuração mais fácil e substituir padrões obsoletos. Apesar de trazer novas funcionalidades, também trouxe consigo algumas vulnerabilidades. Tendo como a principal falha, ser composto por um PIN (Número de identificação pessoal) de apenas 8 dígitos, suscetível a ataques de força bruta.
+O \textit{Wi-Fi Protected Setup} (WPS) é um padrão definido pela Wi-Fi AllianceTM, para segurança de redes sem fio (Wi-Fi). Foi introduzido em 2006 e vinha para fornecer uma configuração mais fácil e substituir padrões obsoletos. Apesar de trazer novas funcionalidades, também trouxe consigo algumas vulnerabilidades. Como a principal falha do WPS, que é ser composto por um PIN (Número de identificação pessoal) de apenas 8 dígitos, suscetível a ataques de força bruta.
 
 \textbf{Problema:}
 Com o avanço e o grande aumento dos serviços online, as redes de computadores estão cada vez mais vulneráveis. 
@@ -310,29 +310,41 @@ Este Trabalho               & Localizar  vulnerabilidades por meio de uma pesqui
 \end{table}
 
 \section{Esboço da Proposta}
-Nesta seção será feita uma breve descrição da proposta deste pré-projeto. A proposta visa através do método \textit{WarDriving}, levantar o perfil das redes sem fio da cidade de Picos no que diz respeito aos métodos de segurança aplicados as redes sem fio. A proposta visa realizar um estudo de campo pra idententificar o nível de segurança das redes de Picos, dessa forma...  
+Nesta seção será feita uma breve descrição da proposta deste pré-projeto. A proposta visa através do método \textit{WarDriving}, levantar o perfil das redes sem fio da cidade de Picos no que diz respeito aos métodos de segurança aplicados às redes sem fio. A proposta visa realizar um estudo de campo para identificar o nível de segurança das redes de Picos, dessa forma...  
 
-Para realizar a análise serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado, o ataque será feito por meio de força de bruta. 
+Para realizar a análise serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado ou utilize protocolos vulneráveis, o ataque será feito por meio de força de bruta. Os experimentos realizados servirão como guia prático para demonstrar o nível atual da seguranças das redes, para os usuários e administradores de redes, possam melhorar sua infraestrutura. 
+
+Para avaliar as vulnerabilidades das redes, serão usados métodos de ataques passivos e ativos. Ataques passivos são feitos por meio do método \textit{WarDriving}, que irá identificar protocolos que estão sendo usados, para assim serem feitos os ataques ativos. Os ataques ativos serão feito por meio do método de força bruta, testando combinações de senhas mais utilizadas e senhas consideradas fracas.
     
 \section{Metodologia e Cronograma}
-Por fim, a Tabela \ref{tab:dois} apresenta o cronograma planejado para execução do projeto.
+Nesta seção será mostrada a metodologia planejada para o estudo de caso proposto. A metodologia usada nesse projeto para a obtenção dos resultados consiste em: pesquisa bibliográfica; estudo das técnicas de ataques; análise dos resultados.
+
+\textbf{Pesquisa bibliográfica:}
+
+\textbf{Estudo das técnicas de ataques:}
+
+\textbf{Análise dos resultados:}
+
+Por fim, a Tabela \ref{tab:tabela} apresenta o cronograma planejado para execução do projeto.
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
 \begin{table}[h]
+\label{tab:tabela}
+\caption{Cronograma de atividades.}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-\label{tab:dois}
-Atividades                        & Mês 1 - 2 & Mês 3 - 6 & Mês 7 - 8 & Mês 9 - 10 & Mês 11 - 12 \\ \hline
-Atualizar revisão bibliográfica   & X         & X         & X         & X          &             \\ \hline
-Implementar as técnicas propostas & X         & X         &           &            &             \\ \hline
-Testes das técnicas utilizadas    &           & X         & X         &            &             \\ \hline
-Redação de artigos científicos    &           &           & X         & X          &             \\ \hline
-Redação da monografia             &           &           & X         & X          &             \\ \hline
-Defesa da monografia              &           &           &           &            & X           \\ \hline
+Atividades                      & Mês 1 - 2 & Mês 3 - 6 & Mês 7 - 8 & Mês 9 - 10 & Mês 11 - 12 \\ \hline
+Pesquisa bibliográfica          & X         & X         &           &            &             \\ \hline
+Desenvolver técnicas de ataques & X         & X         &           &            &             \\ \hline
+Realizar testes das técnicas    &           & X         & X         &            &             \\ \hline
+Escrita de artigos científicos  &           &           & X         & X          &             \\ \hline
+Redação da monografia           &           &           & X         & X          &             \\ \hline
+Defesa da monografia            &           &           &           &            & X           \\ \hline
 \end{tabular}%
 }
 \end{table}
+
 
 % ----------------------------------------------------------
 % Referências bibliográficas
