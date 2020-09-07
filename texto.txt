@@ -339,8 +339,7 @@ Por fim, a Tabela \ref{tab:tabela} apresenta o cronograma planejado para execuç
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
 \begin{table}[h]
-\label{tab:tabela}
-\caption{Cronograma de atividades.}
+\caption{Cronograma de atividades.\label{tab:tabela}}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
