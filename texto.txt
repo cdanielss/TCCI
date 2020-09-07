@@ -310,9 +310,9 @@ Este Trabalho               & Localizar  vulnerabilidades por meio de uma pesqui
 \end{table}
 
 \section{Esboço da Proposta}
-Nesta seção será feita uma breve descrição da proposta deste pré-projeto. A proposta visa através do método \textit{WarDriving}, levantar o perfil das redes sem fio da cidade de Picos no que diz respeito aos métodos de segurança aplicados às redes sem fio. A proposta visa realizar um estudo de campo para identificar o nível de segurança das redes de Picos, dessa forma...  
+Nesta seção será feita uma breve descrição da proposta deste pré-projeto. A proposta visa através do método \textit{WarDriving}, levantar o perfil das redes sem fio da cidade de Picos no que diz respeito aos métodos de segurança aplicados às redes sem fio. A proposta visa realizar um estudo de campo para identificar o nível de segurança das redes de Picos.  
 
-Para realizar a análise serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado ou utilize protocolos vulneráveis, o ataque será feito por meio de força de bruta. Os experimentos realizados servirão como guia prático para demonstrar o nível atual da seguranças das redes, para os usuários e administradores de redes, possam melhorar sua infraestrutura. 
+Para realizar a análise serão encontrados e demarcados os pontos onde os ataques passivos serão feitos, onde será aplicado o \textit{WarDriving}. Em seguida será feito os ataques ativos, nas redes com o WPS ativado ou utilize protocolos vulneráveis, o ataque será feito por meio de força de bruta. Os experimentos realizados servirão como guia prático para demonstrar o nível atual da seguranças das redes, para os usuários e administradores de redes, para que possam melhorar sua infraestrutura. 
 
 Para avaliar as vulnerabilidades das redes, serão usados métodos de ataques passivos e ativos. Ataques passivos são feitos por meio do método \textit{WarDriving}, que irá identificar protocolos que estão sendo usados, para assim serem feitos os ataques ativos. Os ataques ativos serão feito por meio do método de força bruta, testando combinações de senhas mais utilizadas e senhas consideradas fracas.
     
