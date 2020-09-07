@@ -319,6 +319,13 @@ Para avaliar as vulnerabilidades das redes, serão usados métodos de ataques pa
 \section{Metodologia e Cronograma}
 Nesta seção será mostrada a metodologia planejada para o estudo de caso proposto. A metodologia usada nesse projeto para a obtenção dos resultados consiste em: pesquisa bibliográfica; estudo das técnicas de ataques; análise dos resultados.
 
+\begin{figure} [!hbt] 
+	\centering
+	\label{figura1}
+	\includegraphics[width=1.1\textwidth]{fluxograma.jpeg}
+	\caption{Metodologia do projeto}
+\end{figure}
+
 \textbf{Pesquisa bibliográfica:}
 Essa é a primeira fase, nela será feito um levantamento com vários trabalhos para identificar problemas. A pesquisa também serve para coletar informações e possivelmente métodos e métricas que possam ser usados.
 
@@ -329,6 +336,9 @@ os ataques, escolhendo algoritmos específicos e ferramentas para obtenção de 
 \textbf{Validação das técnicas de ataques:}
 Nesta etapa, será feito um estudo e releitura das técnicas propostas, visando utilizar as mais novas tecnologias, para uma obtenção de resultados
 mais satisfatórios.  
+
+\textbf{Geração do modelo:}
+Tendo escolhido os parâmetros, métodos e métricas desejadas o modelo do estudo pode ser gerado. Nesse projeto serão escolhidas redes sem fio que possibilitam ataques ativos e ataques passivos. 
 
 \textbf{Análise dos resultados:}
 É a última fase do projeto. Nessa fase os resultados
