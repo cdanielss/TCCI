@@ -292,7 +292,7 @@ Já no artigo \cite{kissi975penetration}, usa uma metodologia diferente dos dema
 No trabalho de \citeonline{soares2019avaliaccao} foi realizado uma pesquisa, para a avaliação dos mecanismos de segurança, são efetuados experimentos de ataques ativos, como o de dicionário e força bruta para obtenção das senhas das redes. A vulnerabilidade \textit{Krack Attack} também é explorada com o objetivo de verificar se os dispositivos com Wi-Fi estão vulneráveis. Registrando que 31,6\% das redes analisadas foram invadidas, por meio de força bruta. Já na exploração do \textit{Krack Attack} quase 50\% está propensa a sofrer ataques. Ainda discorre sobre a importância de atualizar sempre os dispositivos de redes, aliado com senhas bem elaboradas e boas práticas do usuário.
 
 
-\begin{table}[]
+\begin{table}[h]
 \caption{Comparação de trabalhos a partir dos modelos, diferenciando os objetivos e métodos de ataque.}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{c p{4 cm} c p{5 cm} c p{5 cm} c p{5 cm}}
@@ -320,10 +320,20 @@ Para avaliar as vulnerabilidades das redes, serão usados métodos de ataques pa
 Nesta seção será mostrada a metodologia planejada para o estudo de caso proposto. A metodologia usada nesse projeto para a obtenção dos resultados consiste em: pesquisa bibliográfica; estudo das técnicas de ataques; análise dos resultados.
 
 \textbf{Pesquisa bibliográfica:}
+Essa é a primeira fase, nela será feito um levantamento com vários trabalhos para identificar problemas. A pesquisa também serve para coletar informações e possivelmente métodos e métricas que possam ser usados.
 
 \textbf{Estudo das técnicas de ataques:}
+Nessa fase busca-se compreender como vai funcionar 
+os ataques, escolhendo algoritmos específicos e ferramentas para obtenção de resultados. Como por exemplo, é necessário uma ferramenta para realizar o \textit{sniffing} dos protocolos.
+
+\textbf{Validação das técnicas de ataques:}
+Nesta etapa, será feito um estudo e releitura das técnicas propostas, visando utilizar as mais novas tecnologias, para uma obtenção de resultados
+mais satisfatórios.  
 
 \textbf{Análise dos resultados:}
+É a última fase do projeto. Nessa fase os resultados
+obtidos serão analisados e serão feitas conclusões acerca deles. Os resultados normalmente
+são apresentados com gráficos ou tabelas.
 
 Por fim, a Tabela \ref{tab:tabela} apresenta o cronograma planejado para execução do projeto.
 % Please add the following required packages to your document preamble:
