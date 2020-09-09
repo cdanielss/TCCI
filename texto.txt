@@ -208,7 +208,8 @@ Embora o WPS seja comercializado como uma forma segura de configurar um disposit
 \subsection{Objetivos Gerais e Específicos}
 O objetivo geral deste pré-projeto é levantar dados que mostrem o atual cenário do nível de segurança das redes Wi-Fi no município de Picos do Estado do Piauí (Picos - PI). Os objetivos específicos deste trabalho são:
 \begin{itemize}
-   \item Identificar o perfil das redes wifi da cidade de Picos; 
+   \item Identificar o perfil das redes wifi da cidade de Picos;
+   \item Demonstrar o atual nível de segurança das redes identificadas; 
    \item Criar métodos sistemáticos que auxiliem na segurança das redes wifi.
 \end{itemize}
 
@@ -342,8 +343,7 @@ Tendo escolhido os parâmetros, métodos e métricas desejadas o modelo do estud
 
 \textbf{Análise dos resultados:}
 É a última fase do projeto. Nessa fase os resultados
-obtidos serão analisados e serão feitas conclusões acerca deles. Os resultados normalmente
-são apresentados com gráficos ou tabelas.
+obtidos serão analisados e serão feitas conclusões acerca deles. Os resultados normalmente são apresentados com gráficos ou tabelas.
 
 Por fim, a Tabela \ref{tab:tabela} apresenta o cronograma planejado para execução do projeto.
 % Please add the following required packages to your document preamble:
