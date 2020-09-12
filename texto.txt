@@ -171,7 +171,7 @@ O \textit{Wi-Fi Protected Setup} (WPS) é um padrão definido pela Wi-Fi Allianc
 
 \textbf{Problema:}
 Com o avanço e o grande aumento dos serviços online, as redes de computadores estão cada vez mais vulneráveis. 
-Hoje, quase todos os computadores e dispositivos móveis estão conectados à grande rede da Internet, onde problemas podem ocorrer, seja por próprio descuido do usuário, deixando sua máquina exposta ou por falhas de segurança da rede.
+Hoje, quase todos os computadores e dispositivos móveis estão conectados à grande rede da Internet, onde problemas podem ocorrer, seja por próprio descuido do usuário, deixando sua máquina exposta ou por falhas de segurança da rede. Por isso, faz-se necessário o estudo das vulnerabilidades e falhas dos equipamentos de redes, para uma utilização adequada de acordo com o usuário.
 
 \indent
 \textbf{Proposta:}
@@ -298,7 +298,7 @@ No trabalho de \citeonline{soares2019avaliaccao} foi realizado uma pesquisa, par
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{c p{4 cm} c p{5 cm} c p{5 cm} c p{5 cm}}
 \toprule
-Trabalhos                   & Objetivos                                                     & Ataques Ativos? & Ataques Passivos? \\ \hline
+Trabalhos                   & Objetivos                                                     & Ataques Ativos & Ataques Passivos \\ \hline
 \cite{lindell2019wps}       & Abordar falhas no padrão WPS                                  & Não             & Sim               \\ \hline
 \cite{nikolov2018wireless}  & Identificar vulnerabilidades por meio de ataques              & Sim             & Sim               \\ \hline
 \cite{valchanov2019study}       & Localizar  vulnerabilidades por meio de uma pesquisa de campo & Não & Sim \\ \hline
