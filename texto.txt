@@ -323,7 +323,7 @@ Nesta seção será mostrada a metodologia planejada para o estudo de caso propo
 \begin{figure} [!hbt] 
 	\centering
 	\label{figura1}
-	\includegraphics[width=1.1\textwidth]{fluxograma.jpeg}
+	\includegraphics[width=1.1\textwidth]{fluxogramaD.jpeg}
 	\caption{Metodologia do projeto}
 \end{figure}
 
@@ -338,8 +338,8 @@ os ataques, escolhendo algoritmos específicos e ferramentas para obtenção de 
 Nesta etapa, será feito um estudo e releitura das técnicas propostas, visando utilizar as mais novas tecnologias, para uma obtenção de resultados
 mais satisfatórios.  
 
-\textbf{Geração do modelo:}
-Tendo escolhido os parâmetros, métodos e métricas desejadas o modelo do estudo pode ser gerado. Nesse projeto serão escolhidas redes sem fio que possibilitam ataques ativos e ataques passivos. 
+\textbf{Realização do Estudo:}
+Após escolhido os parâmetros, métodos e métricas desejadas o modelo do estudo pode ser gerado. Nesse projeto serão escolhidas redes sem fio que possibilitam ataques ativos e ataques passivos. 
 
 \textbf{Análise dos resultados:}
 É a última fase do projeto. Nessa fase os resultados
