@@ -338,7 +338,7 @@ os ataques, escolhendo algoritmos específicos e ferramentas para obtenção de 
 Nesta etapa, será feito um estudo e releitura das técnicas propostas, visando utilizar as mais novas tecnologias, para uma obtenção de resultados
 mais satisfatórios.  
 
-\textbf{Realização do Estudo:}
+\textbf{Realização do estudo:}
 Após escolhido os parâmetros, métodos e métricas desejadas o modelo do estudo pode ser gerado. Nesse projeto serão escolhidas redes sem fio que possibilitam ataques ativos e ataques passivos. 
 
 \textbf{Análise dos resultados:}
